@@ -5,11 +5,11 @@ public class Main {
         Scanner inp = new Scanner(System.in);
         int kacSayi, sayi = 1, min = 1, max = 1, a;
 
-        System.out.print("Kac tane sayi gireceksiniz: ");
+        System.out.print("Kaç Tane Sayı Gireceksiniz: ");
         kacSayi = inp.nextInt();
 
         for (a = 1; a <= kacSayi; a++){
-            System.out.print(a + ".sayiyi giriniz: ");
+            System.out.print(a + ". Sayıyı Giriniz: ");
             sayi = inp.nextInt();
 
             if (a == 1)
